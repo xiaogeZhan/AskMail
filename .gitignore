@@ -1,0 +1,26 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore sensitive API key files
+api_key.txt
+
+# Ignore temporary files and logs
+*.log
+
+# Ignore Excel and dataset files in data folder
+data/*.xlsx
+
+# Ignore image files
+images/*.jpg
+
+# Ignore output folder
+output/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment folders
+venv/
+env/
